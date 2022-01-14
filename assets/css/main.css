@@ -40,7 +40,7 @@ section.container .jumbotron {
 }
 
 .jumbotron-image {
-  background-image: url("/Developer-Portfolio/assets/img/denise-schuld-T5RCT7Qm-Eg-unsplash.jpg");
+  background-image: url("./assets/img/denise-schuld-T5RCT7Qm-Eg-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,7 @@ section.container .jumbotron {
 }
 
 #img-modal-horiseon .jumbotron {
-  background-image: url("/Developer-Portfolio/assets/img/Horiseon Full Page Part 1(Header).png");
+  background-image: url("./assets/img/Horiseon Full Page Part 1(Header).png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
