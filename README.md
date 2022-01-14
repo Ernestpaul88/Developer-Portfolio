@@ -13,4 +13,3 @@ I am certain the HTML and CSS for this project is cleaner, more accessible and m
 ![Earn the Developer's Webpage preview]()
 
 Deployed application: https://ernestpaul88.github.io/Developer-Portfolio/
-
