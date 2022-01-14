@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="add content here" />
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earn The Developer</title>
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+  </head>
+  <body>
+    <main>
+
+      <!------ Home Jumbotron --->
+      <section
+        id="home-jumbotron"
+        class="home text-center jumbotron jumbotron-image jumbotron-fluid"
+      >
+      <!-- Top Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark shadow">
+          <!-- Navigation Container -->
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+            <!-- Specified nav-items -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#home-jumbotron">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio-jumbo">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-me">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!---- About jumbotron/ About me---->
+      <section class="container">
+        <div id="About" class="jumbotron">
+          <h2 class="display-5">About Me</h2>
+          <hr class="my-4" />
+          <p>
+            The name is Ernest Paul. I recently graduated from North Carolina
+            A&T State University with a Bachelors of science in Technology with a 
+            concentration in Information Technology. I am a Retention Agent for 
+            Asurion Insurance and I'm currently looking to develop my skills in software engineering.
+          </p>
+        </div>
+      </section>
+
+      <!----- Portfolio Work ---->
+      <section id="portfolio-jumbo" class="container-fluid">
+        <div class="row text-center">
+          <h2 class="Portfolio">My Work</h2>
+          <br />
+          <div class="img-portfolio col-sm-3">
+            <p>Horiseon Webpage</p>
+            <a data-bs-toggle="modal" data-bs-target="#horiseon-modal">
+              <img
+                src="assets\img\Horiseon Full Page Part 1(Header).png"
+                class="img-responsive"
+                alt="Horiseon Image"
+              />
+            </a>
+          </div>
+          <div class="img-portfolio col-sm-3">
+            <p>Portfolio</p>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img
+                src="http://placehold.it/150x80?text=IMAGE"
+                class="img-responsive"
+                alt="Image"
+              />
+            </a>
+          </div>
+          <div class="img-portfolio col-sm-3">
+            <p>Title</p>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img
+                src="http://placehold.it/150x80?text=IMAGE"
+                class="img-responsive"
+                alt="Image"
+              />
+            </a>
+          </div>
+          <div class="img-portfolio col-sm-3">
+            <p>Title</p>
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img
+                src="http://placehold.it/150x80?text=IMAGE"
+                class="img-responsive"
+                alt="Image"
+              />
+            </a>
+          </div>
+        </div>
+
+      <!------- Modal Windows---->
+
+      <!--  This is the Horiseon web page modal -->
+      <div
+      class="modal fade"
+      id="horiseon-modal"
+      tabindex="-1"
+      aria-labelledby="horiseon-modal"
+      aria-hidden="true"
+    >
+    
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="horiseon-modalLabel">Horiseon Web Page</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <section id="img-modal-horiseon" class="container">
+              <div class="jumbotron"></div>
+            </section>
+            <section id="modal-descrip" class="container">
+              <div class="jumbotron">
+                <h5>Description</h5>
+                <hr class="my-4" />
+                <p>The description of this project</p>
+              </div>
+            </section>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="https://ernestpaul88.github.io/Code-Refactor/" target="_blank">
+              <button type="button" class="btn btn-primary">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--  This is the Generic web page modal -->
+      <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <section id="img-modal" class="container">
+              <div class="jumbotron modal-jumbo"></div>
+            </section>
+            <section id="modal-descrip" class="container">
+              <div class="jumbotron">
+                <h5>Description</h5>
+                <hr class="my-4" />
+                <p>The description of this project</p>
+              </div>
+            </section>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="https://github.com/Ernestpaul88" target="_blank">
+              <button type="button" class="btn btn-primary">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+
+      <!------- contact---->
+      <section id="contact-me" class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="Portfolio">Let's Get in Touch</h2>
+            <br />
+            <p>2406 Blackwolf Run Lane</p>
+            <p>Durham, NC 27604</p>
+            <p>919-80*-****</p>
+            <p>ernestpaul88@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!------ Footer --->
+    <footer class="container-fluid bg-4 text-center">
+      <p>© 2022 Copyright: Ernest Paul</p>
+    </footer>
+
+    <!-- Vendor JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
