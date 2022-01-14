@@ -10,6 +10,6 @@ I've re-organized the CSS to display global, element, class, and used the ID sel
 
 I am certain the HTML and CSS for this project is cleaner, more accessible and meets the acceptance criteria. 
 
-![Earn the Developer's Webpage preview]()
+![Earn the Developer's Webpage preview](https://github.com/Ernestpaul88/Developer-Portfolio/blob/main/assets/img/Developer1.PNG)
 
 Deployed application: https://ernestpaul88.github.io/Developer-Portfolio/
