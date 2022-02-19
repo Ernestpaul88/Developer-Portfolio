@@ -64,6 +64,16 @@ section.container .jumbotron {
   height: 40vh;
 }
 
+/* Crypto placeHolder */
+.modal-crypto-jumbo {
+  background-image: url("../img/Screenshot2-desktop.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+
 /* Horiseon placeHolder */
 #img-modal-horiseon .jumbotron {
   background-image: url("../img/Horiseon.png");
