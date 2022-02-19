@@ -73,6 +73,15 @@ section.container .jumbotron {
   height: 40vh;
 }
 
+/* Crypto placeHolder */
+#img-crypto .jumbotron {
+  background-image: url("../img/Screenshot2-desktop.PNG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
 
 /* Ernest Picture */
 #img-modal-Ernest .jumbotron {
