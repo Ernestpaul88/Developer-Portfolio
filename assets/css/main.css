@@ -92,6 +92,14 @@ section.container .jumbotron {
   height: 40vh;
 }
 
+/* Travel placeHolder */
+#img-travel .jumbotron {
+  background-image: url("../img/travel-log-screen.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
 
 /* Ernest Picture */
 #img-modal-Ernest .jumbotron {
